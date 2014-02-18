@@ -1,7 +1,7 @@
 # bower-traceur
 
 This repo is for distribution on `bower`. The source for this module is in the
-[main traceur repo](https://github.com/google/traceur-compiler.js).
+[main traceur repo](https://github.com/google/traceur-compiler/).
 Please file issues and pull requests against that repo.
 
 ## Install
