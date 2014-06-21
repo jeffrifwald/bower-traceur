@@ -2,13 +2,13 @@
   "name": "bower-traceur",
   "description": "A Bower package for the Google Traceur compiler.",
   "version": "0.0.45",
-  "homepage": "http://www.tryambition.com",
+  "homepage": "http://ambition.com",
   "scripts": {
     "build": "npm install && grunt"
   },
   "author": {
     "name": "Jeff McRiffey",
-    "email": "jeff.mcriffey@tryambition.com",
+    "email": "jeff.mcriffey@ambition.com",
     "url": "https://github.com/jmcriffey"
   },
   "repository": {
