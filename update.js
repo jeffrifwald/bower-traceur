@@ -15,6 +15,9 @@ fs.writeFileSync('bower.json', JSON.stringify(bower, null, 2));
 fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
 
 exec('npm run build', function (error, stdout, stderr) {
-     console.log('stdout:', stdout);
-     console.log('stderr:', stderr);
+     console.log(stdout);
+
+    if (stderr) {
+        console.log(stderr);
+    }
 });
