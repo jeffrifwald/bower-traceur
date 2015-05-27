@@ -16,10 +16,17 @@ fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
 
 exec('rm -rf node_modules', function() {
     exec('npm run build', function (error, stdout, stderr) {
-         console.log(stdout);
+        console.log(stdout);
 
         if (stderr) {
             console.log(stderr);
         }
+
+        fs.readFile('traceur.js', {encoding: 'utf-8'}, function(err, contents) {
+            fs.writeFile(
+                'traceur.js',
+                contents.replace('//# sourceMappingURL=traceur.js.map\n', '')
+            );
+        });
     });
 });
