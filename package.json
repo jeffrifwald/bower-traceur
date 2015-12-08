@@ -24,7 +24,7 @@
   },
   "jspm": {
     "format": "global",
-    "modules": {
+    "meta": {
       "traceur.js": {
         "exports": "traceur"
       }
