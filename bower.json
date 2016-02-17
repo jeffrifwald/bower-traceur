@@ -1,6 +1,6 @@
 {
   "name": "traceur",
-  "version": "0.0.96",
+  "version": "0.0.97",
   "main": "./traceur.js",
   "ignore": [
     "node_modules",
